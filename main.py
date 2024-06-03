@@ -1290,7 +1290,11 @@ def Login_interface(): #로그인 인터페이스
 
     h = hashlib.sha256()
 
+<<<<<<< HEAD
     # 파일 읽기 관련 예외 처리
+=======
+# 파일 읽기 관련 예외 처리
+>>>>>>> 21722610_주휘진
     try:
         with open("login.txt", "r", encoding="UTF-8") as f:
             login_info = [line.strip().split(":") for line in f.readlines()]
